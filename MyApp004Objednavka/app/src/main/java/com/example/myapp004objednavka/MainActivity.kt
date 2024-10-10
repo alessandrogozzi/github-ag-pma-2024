@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             val kola = binding.cbKola.isChecked
             val vlakna = binding.cbVlakna.isChecked
 
-            val objednavkaText = "Souhrn objednávky: " + "${kolobezka.text}"
+            val objednavkaText = "Souhrn objednávky: " + "${kolobezka.text}" +
 
             (if(vidlice) "; lepší vidlice" else "") +
                     (if(kola) "; lepší kola" else "") +
@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
                     binding.tvObjednavka.text = objednavkaText
         }
 
-        //testovaci komentar ignoruj
         //Změna obrázku v závislosti na vybraném radioButtonu
         binding.kolobezka1.setOnClickListener {
             binding.ivKolobezka.setImageResource(R.drawable.kolobezka1)
