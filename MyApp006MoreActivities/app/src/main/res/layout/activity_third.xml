@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
+    tools:context=".ThirdActivity"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -19,25 +19,13 @@
         app:titleTextColor="@color/white"/>
 
     <TextView
-        android:id="@+id/twInfo"
+        android:id="@+id/twInfoTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data z první aktivity: "/>
-
-    <EditText
-        android:id="@+id/etColor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Vyplňte vaši oblíbenou barvu"/>
+        android:text="Vaše oblíbená barva: "/>
 
     <Button
-        android:id="@+id/btnThird"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Třetí aktivita"/>
-
-    <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/btnBackTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Zavřít aktivitu"/>
