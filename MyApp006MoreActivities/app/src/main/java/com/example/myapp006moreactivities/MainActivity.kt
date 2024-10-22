@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -28,6 +29,20 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SecondActivity::class.java)
             intent.putExtra("NICK_NAME", nickname)
             startActivity(intent)
+        }
+
+        // Nastavení akce pro tlačítko Zobrazit TOAST
+        binding.btnShowToast.setOnClickListener {
+
+            // Nafouknutí vlastního layoutu pro Toast
+            val inflater = layoutInflater
+            val layout = inflater.inflate(R.layout.custom_toast, findViewById(R.id.toast_container))
+
+            // Vytvoření Toastu s vlastním layoutem
+            val toast = Toast(applicationContext)
+            toast.duration = Toast.LENGTH_SHORT
+            toast.view = layout
+            toast.show()
         }
     }
 
