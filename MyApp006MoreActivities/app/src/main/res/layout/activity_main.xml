@@ -31,4 +31,10 @@
         android:layout_height="wrap_content"
         android:text="Odeslat data"/>
 
+    <Button
+        android:id="@+id/btnShowToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast"/>
+
 </LinearLayout>
