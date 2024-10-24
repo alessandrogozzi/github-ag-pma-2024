@@ -15,11 +15,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         binding.btnFragment1.setOnClickListener {
-            replaceFragment(Fragment1())
+          replaceFragment(Fragment1())
         }
 
         binding.btnFragment2.setOnClickListener {
@@ -28,16 +30,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun replaceFragment(fragment : Fragment) {
-        //získá instanci správce fragmentu
+
+        // získá instanci správce fragmentů
         val fragmentManager = supportFragmentManager
 
-        //vytvoří novou transakci s fragmenty
+        // vytvoří novou transkakci s fragmenty
         val fragmentTransaction = fragmentManager.beginTransaction()
 
-        //nahradí fragment v kontejneru novym fragmentem
+        // nahradí fragment v kontejneru novým fragmentem, který byl předán jako argument
         fragmentTransaction.replace(R.id.fragmentContainer, fragment)
 
-        //potvrdí transakci a provede vymenu fragmentu
+        // potvrdí transakci a provede výměne fragmentu
         fragmentTransaction.commit()
     }
+
+
 }
