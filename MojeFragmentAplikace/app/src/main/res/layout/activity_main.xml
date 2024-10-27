@@ -13,12 +13,17 @@
         android:layout_width="match_parent"
         android:layout_height="600dp"/>
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Co máte radši?"
+        />
     <Button
         android:id="@+id/btnFragment1"
         android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
-        android:text="Fragment 1"
+        android:text="Iphone"
         android:textSize="20dp"/>
 
     <Button
@@ -27,7 +32,7 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="Fragment 2"
+        android:text="Android"
         android:textSize="20dp"/>
 
 </RelativeLayout>

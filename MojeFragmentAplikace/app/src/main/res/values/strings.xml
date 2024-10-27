@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">MyApp008aFragments</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment_1">Mám radši iPhone.</string>
-    <string name="hello_blank_fragment_2">Mám radši android.</string>
+    <string name="hello_blank_fragment_1">To jste si moc dobře nevybrali. Apple je nic moc :(</string>
+    <string name="hello_blank_fragment_2">Vybrali jste si dobře! Android je nejlepší!</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

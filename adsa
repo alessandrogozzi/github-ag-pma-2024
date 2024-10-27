@@ -1,0 +1,145 @@
+[33mcommit 3f4c83a82405ca0bd1e70caf75b38dc6ed371e8c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Sun Oct 27 13:22:32 2024 +0100
+
+    #7Ukol s fragmentem
+
+[33mcommit f82edd63376e241bd1a9c7b4aa459c99ee299508[m
+Merge: ed8ae62 044d6fa
+Author: Alessandro <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 24 15:54:50 2024 +0200
+
+    Merge branch 'main' of https://github.com/alessandrogozzi/github-ag-pma-2024
+
+[33mcommit ed8ae6214d09fff8ce0ef9b78e92ed56dd877385[m
+Author: Alessandro <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 24 15:54:07 2024 +0200
+
+    #7 fragmenty a dalsi veci
+
+[33mcommit 78650e017b5598fdfd76bd9580acf0d6b0def5f4[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Tue Oct 22 22:48:20 2024 +0200
+
+    #6 tousty
+
+[33mcommit 044d6faef93b2858ed381bef5e9b8c3bbc9da4a4[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Tue Oct 22 22:48:20 2024 +0200
+
+    #6 tousty
+
+[33mcommit dbae67733cca15cd043b6ccdd624d96fbd69c392[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Tue Oct 15 23:09:33 2024 +0200
+
+    ukol6 #5
+
+[33mcommit c5be93ffdd163fdde404b35043c8bb246ea0d0d3[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 10 23:41:48 2024 +0200
+
+    update
+
+[33mcommit 97810f279d199aaa202c29af51c0bb2c06fd2273[m
+Merge: 91b087b 8ba4857
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 10 16:04:01 2024 +0200
+
+    Merge branch 'main' of https://github.com/alessandrogozzi/github-ag-pma-2024
+
+[33mcommit 91b087b8c8578aaf8a4bcd3bc59256e24b755deb[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 10 16:03:08 2024 +0200
+
+    novy #5
+
+[33mcommit a67627e91980cf260a6e2f0d72669da47b2cfd45[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 10 16:02:53 2024 +0200
+
+    novy #5
+
+[33mcommit a6318114fbeeab5ce0b375d24859580c602975d1[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 10 12:10:01 2024 +0200
+
+    ukol 4 #4
+
+[33mcommit 8ba485772902b7b4c06a359c0206d13ef4cf70dc[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Sun Oct 6 18:37:46 2024 +0200
+
+    aktualizace #3
+
+[33mcommit d720d449f2c2fbf60fcc46637d032d376a9eb383[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 3 15:40:17 2024 +0200
+
+    novy commit #3
+
+[33mcommit 2c15ceb3e0fca8275c5c1a22678895f9fcaa1e1a[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Oct 3 11:55:16 2024 +0200
+
+    #3 test commit
+
+[33mcommit 5eeb4f540c039edd3eec2602e4bf33a1aad84085[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Mon Sep 30 19:45:31 2024 +0200
+
+    domaci ukol
+
+[33mcommit 76a072bc3ef332c6541733c392cde950a28e1edc[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Sep 26 15:59:14 2024 +0200
+
+    dalsi
+
+[33mcommit f706b2f5045b55f5497cda3e8d4c5342dccfb9e6[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Sep 26 15:32:01 2024 +0200
+
+    neco novyho
+
+[33mcommit 4139365c122810d0ef4335b26d665ee1584800b6[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Sep 26 15:29:20 2024 +0200
+
+    update
+
+[33mcommit 4f0710d09d377aa7e267798cfab785d1e4df0d0e[m
+Author: Alessandro Gozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Sep 26 15:27:53 2024 +0200
+
+    update
+
+[33mcommit aff345defafce729657a7b64d3ab32adbb667b0c[m
+Author: alessandrogozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Sep 19 15:33:36 2024 +0200
+
+    jmeno
+
+[33mcommit e20c038c350d15a318f31766d4bb2dbc1a2edb47[m
+Author: alessandrogozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Sep 19 15:33:06 2024 +0200
+
+    tesdfsdg
+
+[33mcommit 869bdee0d53b38aa109f0048bc6dcddf52d3e063[m
+Author: alessandrogozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Sep 19 15:31:41 2024 +0200
+
+    nove
+
+[33mcommit dc387da0277f79831c0b2814748b72ff00afdc2f[m
+Author: alessandrogozzi <alessandro.gozzi@tul.cz>
+Date:   Thu Sep 19 15:27:36 2024 +0200
+
+    test
+
+[33mcommit 1fc620bb998dd9083ddff30931fe7eede46f76e7[m
+Author: alessandrogozzi <72192185+alessandrogozzi@users.noreply.github.com>
+Date:   Thu Sep 19 14:45:19 2024 +0200
+
+    Initial commit
