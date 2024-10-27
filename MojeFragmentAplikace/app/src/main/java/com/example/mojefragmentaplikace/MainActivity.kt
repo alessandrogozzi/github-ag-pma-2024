@@ -1,4 +1,4 @@
-package com.example.myapp008bfragmentsexample1
+package com.example.mojefragmentaplikace
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -6,8 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
-import com.example.myapp008bfragmentsexample1.databinding.ActivityMainBinding
-import com.example.myapp008bfragmentsexample1.databinding.ActivityMainBinding
+import com.example.mojefragmentaplikace.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

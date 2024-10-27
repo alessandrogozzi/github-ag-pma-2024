@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapp008bfragmentsexample1"
+    namespace = "com.example.mojefragmentaplikace"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.myapp008bfragmentsexample1"
+        applicationId = "com.example.mojefragmentaplikace"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -32,10 +32,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
-    }
-
-    buildFeatures {
-        viewBinding = true
     }
 
     buildFeatures {
