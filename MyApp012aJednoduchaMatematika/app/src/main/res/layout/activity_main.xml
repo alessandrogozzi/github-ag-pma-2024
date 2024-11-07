@@ -1,113 +1,136 @@
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:padding="20dp"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f0f0f0">
 
-    <Button
-        android:id="@+id/button0"
-        android:layout_width="140dp"
-        android:layout_height="105dp"
-        android:backgroundTint="#B5D8EF"
-        android:fontFamily="sans-serif-smallcaps"
-        android:onClick="optionSelect"
-        android:tag="0"
-        android:text="Button"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TimeTextView" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="140dp"
-        android:layout_height="105dp"
-        android:backgroundTint="#DF165A"
-        android:fontFamily="sans-serif-smallcaps"
-        android:onClick="optionSelect"
-        android:tag="1"
-        android:text="Button"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ScoreTextView" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="140dp"
-        android:layout_height="105dp"
-        android:backgroundTint="#0E8C80"
-        android:fontFamily="sans-serif-smallcaps"
-        android:onClick="optionSelect"
-        android:tag="2"
-        android:text="Button"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="140dp"
-        android:layout_height="105dp"
-        android:backgroundTint="#58B65D"
-        android:fontFamily="sans-serif-smallcaps"
-        android:onClick="optionSelect"
-        android:tag="3"
-        android:text="Button"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button0" />
-
-    <TextView
-        android:id="@+id/ScoreTextView"
-        android:layout_width="wrap_content"
+    <!-- Rámeček pro skóre a čas -->
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
+        android:orientation="horizontal"
+        android:background="#dcdcdc"
         android:padding="10dp"
-        android:text="0/0"
-        android:textColor="#F4F0F0"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center_horizontal">
 
+        <!-- Skóre -->
+        <TextView
+            android:id="@+id/ScoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/0"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginEnd="10dp"
+            android:gravity="start"/>
+
+        <!-- Čas -->
+        <TextView
+            android:id="@+id/TimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <!-- Otázka uprostřed -->
     <TextView
         android:id="@+id/QuestionTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="question"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"/>
 
-        android:padding="20dp"
-        android:text="29 + 12"
-        android:textColor="#322E2E"
-        android:textSize="36sp"
-        app:layout_constraintEnd_toStartOf="@+id/ScoreTextView"
-        app:layout_constraintStart_toEndOf="@+id/TimeTextView"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/TimeTextView"
-        android:layout_width="wrap_content"
+    <!-- Rámeček pro odpovědi -->
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
 
-        android:background="#FF9800"
-        android:padding="10dp"
-        android:text="30s"
-        android:textColor="#FDFCFC"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <!-- První řádek odpovědí -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
 
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="answer_1"
+                android:textSize="18sp"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="answer_2"
+                android:textSize="18sp"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"/>
+        </LinearLayout>
+
+        <!-- Druhý řádek odpovědí -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="answer_3"
+                android:textSize="18sp"
+                android:backgroundTint="#FFC107"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="answer_4"
+                android:textSize="18sp"
+                android:backgroundTint="#F44336"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Stav hry (alert) -->
     <TextView
         android:id="@+id/AlertTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-
-        android:padding="20dp"
         android:text="Jdeme na to!"
-        android:textColor="#555555"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        android:textSize="16sp"
+        android:textColor="#FF5722"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
