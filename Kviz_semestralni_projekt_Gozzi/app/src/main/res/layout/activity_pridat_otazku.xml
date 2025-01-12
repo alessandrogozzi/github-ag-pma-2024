@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_question_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Zadejte text otázky"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odpověď 1"
+            android:inputType="text"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odpověď 2"
+            android:inputType="text"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odpověď 3"
+            android:inputType="text"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odpověď 4"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_correct_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Číslo správné odpovědi (1-4)"
+            android:inputType="number"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_submit_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Odeslat otázku" />
+    </LinearLayout>
+</ScrollView>

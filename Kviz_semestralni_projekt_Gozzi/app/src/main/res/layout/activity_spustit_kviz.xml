@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/question_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Zde se zobrazí otázka"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/answer1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Odpověď 1"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/answer2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Odpověď 2"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/answer3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Odpověď 3"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/answer4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Odpověď 4"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
